@@ -1,0 +1,36 @@
+# configuration file for proxydriver
+# file auto-generated, please complete me!
+
+# proxy active or not
+enabled='<%= @enabled %>'
+
+# proxy configuration is given by HTTP proxy auto-config (PAC)
+# if used, remove comment char '#' at begin of the line
+# autoconfig_url=''
+
+# main proxy settings
+# if not HTTP proxy auto-config
+proxy='<%= @proxy %>'
+port=<%= @port %>
+
+# use same proxy for all protocols
+same='<%= @same %>'
+
+# protocols other than http
+# if not proxy auto-config and if same is set to 'false'
+https_proxy='<%= @https_proxy %>'
+https_port=<%= @https_port %>
+ftp_proxy='<%= @ftp_proxy %>'
+ftp_port=<%= @ftp_port %>
+socks_proxy='<%= @socks_proxy %>'
+socks_port=<%= @socks_port %>
+
+# authentication for Gnome
+# for KDE, it is detected automaticaly
+auth='<%= @auth %>'
+login='<%= @login %>'
+pass='<%= @pass %>'
+
+# ignore-list
+ignorelist='<%= @ignorelist %>'
+
